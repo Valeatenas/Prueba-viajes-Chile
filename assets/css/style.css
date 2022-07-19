@@ -41,7 +41,7 @@ h1, h5{
 }
 
 .card-body {
-  background-color: #00ccff;
+  background-color:black;
 
 }
 
@@ -69,6 +69,10 @@ h1, h5{
  
 }
 
+#navbarNav{
+  margin-right: 5rem;
+}
+
 #rrss {
   gap: 20px;
   text-decoration: none;
@@ -78,7 +82,9 @@ h1, h5{
 #rrss a i {
   text-decoration: none;
   color: white;
+  height: 20px;
 }
+
 
 #footer {
   height: 5rem;
@@ -97,8 +103,8 @@ h1, h5{
     display: none;
   }
 
-  /*
   .card-img-top{
-    width: auto ;
-  }*/
+    height: auto ;
+  }
 }
+
