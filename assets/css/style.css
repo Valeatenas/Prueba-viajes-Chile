@@ -41,12 +41,13 @@ h1, h5,h4 {
 }
 
 .card-body {
-  background-color:black;
+  background-color:#212529;
 
 }
 
+
 .card-img-top {
-  height: 20vh;
+  height: 8rem;
 
 }
 
