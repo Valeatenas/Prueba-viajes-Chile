@@ -13,7 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h5{
+h1, h5,h4 { 
   font-weight: 700;
 }
 
@@ -60,7 +60,7 @@ h1, h5{
 
 #navbar {
   z-index: 999;
-  background-color: transparent;
+  background-color:rgba(0, 0, 0, .6);
 
 }
 
@@ -108,3 +108,10 @@ h1, h5{
   }
 }
 
+/* Tamaño de cars*/
+@media (max-width: 768px) {
+  .card {
+    margin-left: 4rem;
+    margin-right:4rem;
+  }
+}
