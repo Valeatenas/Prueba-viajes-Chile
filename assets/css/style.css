@@ -109,3 +109,9 @@ h1, h5,h4 {
   }
 }
 
+@media (max-width: 768px) {
+ .card {
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+}
